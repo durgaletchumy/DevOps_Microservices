@@ -20,7 +20,7 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            cd DevOps_Microservices/project-ml-microservice-kubernetes
+            cd ./DevOps_Microservices/project-ml-microservice-kubernetes
             ./configure
             python3 -m venv venv
             . venv/bin/activate
