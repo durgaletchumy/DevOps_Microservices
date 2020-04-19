@@ -11,6 +11,7 @@ jobs:
     working_directory: ~/DevOps_Microservices
     steps:
       - checkout
+      - docker/install-docker-tools
       # Download and cache dependencies
       - restore_cache:
           keys:
